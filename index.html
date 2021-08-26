@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <style> 
+a {
+  display: inline-table;
+  padding: 15px;
+  background-color:white;
+}
+ul {
+    list-style-type: none; 
+margin: 0;
+padding: 0;
+}
+li{
+    display: inline;
+    float: left;
+}
+.logo { 
+    position: static;
+    margin-top: 350px;
+    margin-right: 900px;
+    margin-bottom: 5px;
+    margin-left: 750px;
+}
+.search { 
+    position: static;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 900px;
+    width: 400px;
+    height: 20px;
+}
     .submit-1 { 
-        position: relative;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
+    position: static;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 1000px;
+    outline-color: transparent;
     }
     .submit-2 {
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
+    position: static;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: 1000px;
+    
     }
     </style>
 <html lang="en">
@@ -21,11 +54,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>www.google.com</title>
 </head>
-<center>
-<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></center>
-<input type="text" placeholder="Search"> 
-</input>  
+<ul>
+<li><a href="about.asp">About</a></li>
+<li><a href="store.asp">Store</a></li>
+<li><a href="gmail.asp">Gmail</a></li>
+<li><a href="images.asp">Images</a></li>
+</ul>
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" class="logo">
+
+<div> <input class="search" type="text" placeholder="Search"></input>
 <button type="submit"> Google Search</button>
-<div> <button type="submit">I'm feeling lucky 
+ <button type="submit">I'm feeling lucky
 </button class="submit-1"></div>
-</html>
+</html> 
