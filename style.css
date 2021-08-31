@@ -1,4 +1,55 @@
-h1 { 
+html { 
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.footer {
+ margin-top: 850px;
+}
+.hsw    { 
+    margin-right: 2050px;
+}
+.navbar { 
+    position: fixed; 
+    margin: 10px;
+}
+ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+li { 
+    float: left;
+}
+a { 
+    display: block;
+    color: #222;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+}
+li a:hover { 
+    background-color: white;
+    text-decoration: underline;
+}
+.signin { 
+    margin-left: 10px;
+background-color: #4285f4;
+border: 1px solid #4285f4;
+color: white;
+font-size: 13px;
+padding-left: 12px;
+padding-right: 12px;
+}
+.signin:hover { 
+    background-color: #4285f4;
+    color: white;   
+}
+.logo { 
     margin-top: 200px;
     margin-left: 1140px;
     margin-bottom: 0px;
